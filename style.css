@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+}
+
+#intro{
+    background: linear-gradient(to right, rgb(229, 247, 246) , white);
+    padding: auto;
+}
+
+#intro-des{
+    padding-right: 100px;
+    margin-left: 40px;
+}
+
+#intro-title{
+    font-size: 3em;
+    padding-top: 85px;
+}
+
+
+#order-btn{
+    margin-top: 20px;
+}
+
+#about{
+    background: url(food-network-main/food-network-main/images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+#about-us{
+    padding-top: 75px;
+}
+
+#about-des{
+    margin-right: 100px;
+    margin-bottom: 65px;
+}
+
+#recipies{
+    text-align: center;
+}
+
+#item{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+#profile{
+    width: 87%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#footer-section{
+    text-align: center;
+    background-color: aqua;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.title-font{
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.description-font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.color-changer{
+    color: steelblue;
+}
+
+.block-container{
+    display: block;
+}
+
+.flexi{
+    display: flex;
+}
+
+.width-fixer{
+    width: 50%;
+}
+
+.img-fixer{
+    max-width: 90%;
+    padding: 5% 5% 0% 5%;
+    margin-bottom: 0;
+}
+
+.btn{
+    border: none;
+    padding: 10px 20px;
+    background:linear-gradient(to right, aqua, blue);
+    border-radius: 30px;
+}
+
+.hypertext{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.food-item{
+    width: 30%;
+    margin: 2%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.food-item-img{
+    padding: 5%;
+    max-width: 90%;
+    border-radius: 8px;
+
+}
+
+.food-des{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.profile-detail{
+    width: 30%;
+    padding-left: 10%;
+}
